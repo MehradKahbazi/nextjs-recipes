@@ -113,8 +113,11 @@
   }
 }
 
-main, nav {
+main {
   @apply max-w-6xl mx-auto my-12;
+}
+nav{
+  @apply w-screen;
 }
 p {
   @apply mt-2;
